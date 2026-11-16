@@ -2109,4 +2109,4 @@ def projector_page():
     ui.timer(1.0, projected_view.refresh)
 
 
-ui.run(host = "0.0.0.0", port = int(os.environ.get("PORT", 8080")), title="CrewMed | Autonomous Crew Health Triage", dark=True)
+ui.run(host = "0.0.0.0", port = int(os.environ.get("PORT", 8080)), title="CrewMed | Autonomous Crew Health Triage", dark=True)
